@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 11.07.23, 12:11
+  ~  */
+  -->
+
+<resources>
+    <!--heath coin-->
+    <string name="health_coin">Your health coin:</string>
+    <string name="health_coin_amount"> </string>
+    <string name="goal_setting">Set your goal</string>
+    <string name="goal_setting_min">min</string>
+    <string name="goal_setting_btn">set</string>
+    <string name="sport_total_time">Your sport total time</string>
+
+    <string name="wandering">Wandering</string>
+    <string name="jogging">Jogging</string>
+    <string name="swimming">Swimming</string>
+    <string name="ball_sports">Ball sports</string>
+    <string name="weight_training">Weight training</string>
+    <string name="yoga">Yoga</string>
+    <string name="climbing_bouldering">Climbing/Bouldering</string>
+    <string name="ohters">Others</string>
+
+    <string name="wandering_total_time">0 min</string>
+    <string name="jogging_total_time">0 min</string>
+    <string name="swimming_total_time">0 min</string>
+    <string name="ball_sports_total_time">0 min</string>
+    <string name="weight_training_total_time">0 min</string>
+    <string name="yoga_total_time">0 min</string>
+    <string name="climbing_bouldering_total_time">0 min</string>
+    <string name="others_total_time">0 min</string>
+
+
+
+
+    <string name="app_name">Fit Mood</string>
+    <string name="greeting">Hello User How are you feeling today? Ready for sport?</string>
+    <string name="home">Home</string>
+    <string name="questionnaire">Questionnaire</string>
+    <string name="tracking">Tracking</string>
+    <string name="settings">Settings</string>
+    <string name="archive">Archive</string>
+
+
+    <string name="darkmodeSwitch">Darkmode</string>
+    <string name="gpsSwitch">GPS</string>
+    <string name="fit_mood" translatable="false">Fit Mood</string>
+    <string name="no_item_selected">No item selected</string>
+    <string name="this_would_set_the_language_to">"This would set the language to: "</string>
+    <string name="select_the_time_for_notifications">Select the time for notifications:</string>
+    <string name="confirm">Confirm</string>
+    <string name="the_selected_time">The selected time:</string>
+    <string name="return_settings">Return to settings</string>
+    <string name="set_notification_time">Set notification time</string>
+    <string name="choose_your_sport_activity">Choose your sport activity</string>
+    <string name="stop">STOP</string>
+    <string name="start">START</string>
+    <string name="add_the_finish_activity">Add a finished activity from the past</string>
+    <string name="add">ADD</string>
+    <string name="track_the_sport_duration">Track the sport duration</string>
+    <string name="the_date_of_today">The date of today:</string>
+    <string name="finish">finish</string>
+    <string name="return_to_main_page">Return to main page</string>
+    <string name="user_consent_and_data_privacy_policy_agreement">User Consent and Data Privacy Policy Agreement</string>
+    <string name="i_have_read_and_agree_to_fit_mood_s_user_consent_and_data_privacy_policy">I have read and agree to Fit Mood\'s User Consent and Data Privacy Policy.</string>
+    <string name="accept_privacy_policy_continue">Continue</string>
+    <string name="privacy_policy">" <![CDATA[ <br/><h3>Data Privacy Policy:</h3><p> <b>1. Data Collection:</b> We collect mood questionnaire responses, physical activity data (manually entered and via step counter), and in the future, GPS data for walked distances. <br/> <b>2. Pseudonymization:</b> All data collected is pseudonymized to ensure your privacy and confidentiality. <br/> <b>3. Data Usage:</b> The data collected is used for research purposes only. It may help us understand mood patterns and how physical activity can impact them. <br/> <b>4. Data Storage:</b> Your data is securely stored and protected by state-of-the-art security measures. <br/> <b>5. Data Sharing:</b> We will not sell, rent or share your personal data with third-parties without your explicit consent. </p> <h3>User Consent Agreement:</h3> <p> By using FitMood, you agree that: <br/> <b>1.</b> You consent to the collection and use of your data as described in our Data Privacy Policy. <br/> <b>2.</b> You understand that the data you provide will be pseudonymized and used for research purposes. <br/> <b>3.</b> You will complete the mood questionnaire three times a day, enter your physical activity data, and engage with our mood-boosting interventions when prompted. <br/> <b>4.</b> You understand that we will occasionally show you sportive activity videos as an intervention to improve your mood. <br/> <b>5.</b> You will contact us if you wish to withdraw your consent and have your data deleted. </p> ]]>     "</string>
+    <string name="please_choose_a_time_between_7_00_and_11_00_for_the_first_notification">Please choose a time between 7:00 and 11:00 for the first Notification!</string>
+    <string name="please_choose_a_time_between_12_00_and_14_00_for_the_second_notification">Please choose a time between 12:00 and 14:00 for the second Notification!</string>
+    <string name="please_choose_a_time_between_17_00_and_19_00_for_the_third_notification">Please choose a time between 17:00 and 19:00 for the third Notification!</string>
+    <string name="alarm">Alarm</string>
+    <string name="alarm_with_id">"Alarm with id "</string>
+    <string name="is_already_set_updating_time_to">" is already set. Updating time to "</string>
+    <string name="is_not_set_setting_for_the_first_time_time">" is not set. Setting for the first time. Time: "</string>
+    <string name="time">time</string>
+    <string name="notification_id">notification_id</string>
+    <string name="questionnaire_notifications">Questionnaire Notifications</string>
+    <string name="notification_channel">Notification Channel</string>
+    <string name="the_recorded_time_minute_is">"The recorded time (minute) is "</string>
+    <string name="the_recorded_sport">The recorded sport</string>
+    <string name="sport_type">"Sport type: "</string>
+    <string name="ok">OK</string>
+    <string name="duration_minute">",\n duration(minute): "</string>
+    <string name="mood_score">",\n mood score: "</string>
+    <string name="sport_saved">Sport Saved</string>
+    <string name="data_saved">Data Saved</string>
+    <string name="please_input_others">please input others</string>
+    <string name="insert_with_success">insert with success</string>
+    <string name="you_have_finished">"you have finished "</string>
+    <string name="questionnaires">" questionnaires"</string>
+    <string name="welcome_to_fit_mood">Welcome to Fit Mood!</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+    <string name="location_saved_to_database">Location saved to database</string>
+    <string name="we_need_your_location_to_provide_better_service">We need your location to provide better service</string>
+    <string name="we_need_your_permission_to_send_notifications">We need your permission to send notifications</string>
+    <string name="location_permission_granted">Location permission granted</string>
+    <string name="location_permission_denied_please_enable_exact_position_for_the_app_in_the_settings">Location permission denied. Please enable exact position for the app in the settings.</string>
+    <string name="notification_permission_granted">Notification permission granted</string>
+    <string name="notification_permission_denied_please_allow_notifications_to_receive_a_reminder_for_the_questionnaire">Notification permission denied. Please allow Notifications to receive a reminder for the questionnaire.</string>
+
+
+    <string-array name="sensor_array">
+        <item>choose_sensor</item>
+        <item>SensorData</item>
+        <item>GpsData</item>
+    </string-array>
+
+</resources>

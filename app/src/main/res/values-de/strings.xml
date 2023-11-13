@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 25.07.23, 15:09
+  ~  */
+  -->
+
+<resources>
+    <!--heath coin-->
+    <string name="health_coin">Die Anzahl Ihrer Gesundheitsmünzen:</string>
+    <string name="health_coin_amount"> </string>
+    <string name="goal_setting">Setzen Sie Ihre Ziele</string>
+    <string name="goal_setting_min">Minuten</string>
+    <string name="goal_setting_btn">Einstellen</string>
+    <string name="sport_total_time">Ihre gesamte Trainingszeit</string>
+
+    <string name="wandering">Wandeln</string>
+    <string name="jogging">Joggen</string>
+    <string name="swimming">Schwimmen</string>
+    <string name="ball_sports">Ballspiele</string>
+    <string name="weight_training">Krafttraining</string>
+    <string name="yoga">Joga</string>
+    <string name="climbing_bouldering">Klettern/Bouldern</string>
+    <string name="ohters">Andere</string>
+
+    <string name="wandering_total_time">0 min</string>
+    <string name="jogging_total_time">0 min</string>
+    <string name="swimming_total_time">0 min</string>
+    <string name="ball_sports_total_time">0 min</string>
+    <string name="weight_training_total_time">0 min</string>
+    <string name="yoga_total_time">0 min</string>
+    <string name="climbing_bouldering_total_time">0 min</string>
+    <string name="others_total_time">0 min</string>
+
+
+    <!--sport-->
+
+
+
+    <string name="app_name">A07</string>
+    <string name="greeting">Hallo Benutzer\nWie geht es Ihnen heute?\nBereit für etwas Sport?</string>
+    <string name="home">"Hauptseite"</string>
+    <string name="questionnaire">Fragebogen</string>
+    <string name="tracking">Sport Verfolgungen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="archive">Archiv</string>
+
+
+    <string name="darkmodeSwitch">Darkmode</string>
+    <string name="gpsSwitch">GPS</string>
+    <string name="fit_mood">Fit Mood</string>
+    <string name="no_item_selected">No item selected</string>
+
+
+    <string name="this_would_set_the_language_to">Dies würde die Sprache auf Folgendes einstellen:</string>
+    <string name="select_the_time_for_notifications">Wählen Sie die Uhrzeit für Benachrichtigungen aus:</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="the_selected_time">Die ausgewählte Uhrzeit:</string>
+    <string name="return_settings">Zurück zu den Einstellungen</string>
+    <string name="set_notification_time">Benachrichtigungszeit einstellen</string>
+    <string name="choose_your_sport_activity">Wählen Sie Ihre sportliche Aktivität</string>
+    <string name="stop">STOPPEN</string>
+    <string name="start">STARTEN</string>
+    <string name="add_the_finish_activity">Die Abschlussaktivität hinzufügen</string>
+    <string name="add">HINZUFÜGEN</string>
+    <string name="track_the_sport_duration">Die Sportdauer verfolgen</string>
+    <string name="the_date_of_today">Das Datum von heute:</string>
+    <string name="finish">fertig</string>
+    <string name="return_to_main_page">Zurück zur Hauptseite</string>
+
+
+    <string name="user_consent_and_data_privacy_policy_agreement">Benutzereinwilligung und Datenschutzvereinbarung</string>
+    <string name="i_have_read_and_agree_to_fit_mood_s_user_consent_and_data_privacy_policy">Ich habe die Benutzereinwilligungs- und Datenschutzrichtlinie von Fit Mood gelesen und bin damit einverstanden.</string>
+    <string name="accept_privacy_policy_continue">Weiter</string>
+    <string name="privacy_policy">" <![CDATA[ <br/><h3>Datenschutzrichtlinie:</h3><p> <b>1. Datensammlung:</b> Wir sammeln Antworten auf Stimmungsfragebögen, Daten zur körperlichen Aktivität (manuell eingegeben und über den Schrittzähler) und in Zukunft auch GPS-Daten für zurückgelegte Strecken. <br/> <b> 2. Pseudonymisierung:</b> Alle erfassten Daten werden pseudonymisiert, um Ihre Privatsphäre und Vertraulichkeit zu gewährleisten. <br/> <b>3. Datenverbrauch:</b> Die erhobenen Daten werden ausschließlich zu Forschungszwecken verwendet. Es kann uns helfen, Stimmungsmuster zu verstehen und zu verstehen, wie körperliche Aktivität sie beeinflussen kann. <br/> <b>4. Datenspeicher:</b> Ihre Daten werden sicher gespeichert und durch modernste Sicherheitsmaßnahmen geschützt. <br/> <b>5. Datenübertragung:</b> Wir werden Ihre personenbezogenen Daten nicht ohne Ihre ausdrückliche Zustimmung verkaufen, vermieten oder an Dritte weitergeben.</p> <br/> <h3> Zustimmungsvereinbarung des Benutzers:</h3> <p>Durch die Nutzung von FitMood erklären Sie sich damit einverstanden: <br/> <b>1.</b> Sie stimmen der Erhebung und Nutzung Ihrer Daten gemäß unserer Datenschutzerklärung zu. <br/> <b>2.</b> Sie nehmen zur Kenntnis, dass die von Ihnen übermittelten Daten pseudonymisiert und zu Forschungszwecken genutzt werden.<br/> <b>3.</b> Sie füllen den Stimmungsfragebogen dreimal täglich aus, geben Ihre Daten zur körperlichen Aktivität ein und nehmen bei Aufforderung an unseren stimmungsaufhellenden Maßnahmen teil.<br/> <b>4.</b> Sie verstehen, dass wir Ihnen gelegentlich Videos zu sportlichen Aktivitäten zeigen, um Ihre Stimmung zu verbessern. <br/> <b>5.</b> Wenn Sie Ihre Einwilligung widerrufen und Ihre Daten löschen lassen möchten, werden Sie uns kontaktieren. </p> ]]>     "</string>
+
+    <!-- questionaire strings-->
+    <!--question 1-->
+    <string name="ques_dialog_title">Hinterlassen Sie einen Kommentar zu dieser Zufallsübung</string>
+    <string name="ques_dialog_yes">Erledigt</string>
+    <string name="ques_dialog_default_comment">Ich habe nichts zu sagen</string>
+    <string name="ques_update_and_save_btn">Speichern und zur Hauptseite gehen</string>
+    <string name="ques1_name">Frage 1</string>
+    <string name="ques1_left">Unzufrieden</string>
+    <string name="ques1_right">Zufrieden</string>
+    <!--question 2-->
+    <string name="ques2_name">Frage 2</string>
+    <string name="ques2_left">Unruhig</string>
+    <string name="ques2_right">Ruhig</string>
+    <!--question 3-->
+    <string name="ques3_name">Frage 3</string>
+    <string name="ques3_left">Nicht gut</string>
+    <string name="ques3_right">Gut</string>
+    <!--question 4-->
+    <string name="ques4_name">Frage 4</string>
+    <string name="ques4_left">Angespannt</string>
+    <string name="ques4_right">Entspannt</string>
+    <!--question 5-->
+    <string name="ques5_name">Frage 5</string>
+    <string name="ques5_left">0 Energie</string>
+    <string name="ques5_right">100 Energie</string>
+    <!--question 6-->
+    <string name="ques6_name">Frage 6</string>
+    <string name="ques6_left">Müde</string>
+    <string name="ques6_right">Wach</string>
+    <!--question 7-->
+    <string name="ques7_name">Frage 7</string>
+    <string name="ques7_desc">Haben Sie seit der letzten Befragung eine oder mehrere negative Erfahrungen gemacht?</string>
+    <string name="ques7_left">Kein Event</string>
+    <string name="ques7_right">Sehr intensiv</string>
+    <!--question 8-->
+    <string name="ques8_name">Frage 8</string>
+    <string name="ques8_desc">Haben Sie seit der letzten Befragung eine oder mehrere positive Erfahrungen gemacht?</string>
+    <!-- Group 3-->
+    <string name="ques9_name">Frage 9</string>
+    <string name="ques9_title">Sind Sie jetzt allein?</string>
+    <string name="ques9_alone">Allein</string>
+    <string name="ques9_not_alone">Nicht allein</string>
+    <string name="ques10_name">Frage 10</string>
+    <string name="ques10_desc">Wenn Sie an die Menschen denken, die Sie umgeben, wie trifft die folgende Aussage zu? Ich mag diese Leute nicht!</string>
+    <string name="ques10_left">Sehr intensiv</string>
+    <string name="ques10_right">Sehr intensiv</string>
+    <!--Group 4-->
+    <string name="ques11_name">Frage 11</string>
+    <string name="ques11_desc">Wer ist gerade um Sie herum?</string>
+    <string name="ques11_others_question">Sie haben andere ausgewählt: Bitte definieren Sie, wer</string>
+    <string name="ques11_others_editText_hint">Wer sind die anderen?</string>
+    <string name="ques11_others_confirm">Bestätigen</string>
+    <!-- Group 5   -->
+    <string name="ques12_name">Frage 12</string>
+    <string name="ques12_desc">Wo sind Sie gerade?</string>
+    <!-- Group6  -->
+    <string name="ques13_name">Frage 13</string>
+    <string name="ques13_desc">Meine Aufmerksamkeit ist oft auf Eigenschaften von mir gerichtet, über die ich nicht nachdenken möchte</string>
+    <string name="exercise_video_question1">Wie gefällt dir diese Übung?</string>
+    <string name="save_gps">GPS speichern</string>
+    <string name="return_to_setting">Zurück zur Einstellungsseite</string>
+    <string name="gps_data">GPS-Daten</string>
+    <string name="exercise_video_question2">Gibt es noch etwas hinzuzufügen?</string>
+    <string name="group6_left">Nicht zustimmen</string>
+    <string name="group6_right">Stimme absolut zu</string>
+    <string name="ques14_name">Frage 14</string>
+    <string name="ques14_desc">Ich habe oft das Gefühl, dass Dinge in meinem Kopf wieder auftauchen, die ich in der Vergangenheit gesagt oder getan habe.</string>
+    <string name="ques15_name">Frage 15</string>
+    <string name="ques15_desc">Manchmal fällt es mir schwer, nicht mehr an mich selbst zu denken</string>
+    <string name="ques16_name">Frage 16</string>
+    <string name="ques16_desc">Noch lange, nachdem ich in einen Streit geraten bin oder eine Meinungsverschiedenheit beigelegt wurde, tauchen meine Gedanken über diese Ereignisse wieder auf</string>
+    <string name="ques17_name">Frage 17</string>
+    <string name="ques17_desc">Derzeit bin ich mit mir zufrieden</string>
+    <string name="group7_left">Nicht zutreffen</string>
+    <string name="group7_right">Vollständig zutreffen</string>
+    <string name="ques18_name">Frage 18</string>
+    <string name="ques18_desc">Momentan denke ich über mich selbst, dass ich ein Versager bin</string>
+    <string name="ques19_name">Frage 19</string>
+    <string name="ques19_desc">Seit dem letzten Fragebogen habe ich impulsiv reagiert – das heißt, ich habe gehandelt, ohne über mögliche Konsequenzen nachzudenken</string>
+    <string name="ques20_name">Frage 20</string>
+    <string name="ques20_desc">Seit dem letzten Fragebogen war ich einer anderen Person gegenüber wütend oder aggressiv, was ich später bereute</string>
+    <string name="ques21_question">Haben Sie noch etwas zu sagen? Fügen Sie diesem Fragebogen einige Notizen hinzu.</string>
+    <string name="ques21_editText_hint">Geben Sie hier Ihre Notizen ein</string>
+    <string name="after_ques_finish_btn">Speichern und fortfahren</string>
+    <string name="after_ques_dialog_title">Der Fragebogen wird in der Datenbank gespeichert</string>
+    <string name="after_ques_dialog_content">Nun zurück zur Hauptseite</string>
+    <string name="after_ques_dialog_gotoexercise_title">Sie scheinen sich unwohl zu fühlen</string>
+    <string name="after_ques_dialog_gotoexercise_content">Ihnen wird eine zufällige Übung zugewiesen</string>
+    <string name="after_ques_dialog_ok">Okay</string>
+    <string name="save_sensor">Sensor speichern</string>
+    <string name="back_to_setting">Zurück zur Einstellungsseite</string>
+    <string name="sensor_data">Sensordaten</string>
+    <string name="after_sport_seekbar">Wie hoch ist jetzt Ihr Stimmungswert?</string>
+    <string name="btn_after_sport_dialog_positive">Verschicken</string>
+    <string name="btn_after_sport_dialog_negative">Stornieren</string>
+    <string name="sport_archive_title">Sport Archiv</string>
+    <string name="sport_dialog_yes">Ja</string>
+    <string name="sport_dialog_no">Nein</string>
+    <string name="sport_dialog_delete">Löschen</string>
+    <string name="please_choose_a_time_between_7_00_and_11_00_for_the_first_notification">Bitte wählen Sie für die erste Benachrichtigung einen Zeitpunkt zwischen 7:00 und 11:00 Uhr!</string>
+    <string name="please_choose_a_time_between_12_00_and_14_00_for_the_second_notification">Bitte wählen Sie für die zweite Benachrichtigung einen Zeitpunkt zwischen 12:00 und 14:00 Uhr!</string>
+    <string name="please_choose_a_time_between_17_00_and_19_00_for_the_third_notification">Bitte wählen Sie für die dritte Benachrichtigung einen Zeitpunkt zwischen 17:00 und 19:00 Uhr!</string>
+    <string name="alarm">Alarm</string>
+    <string name="alarm_with_id">"Alarm mit id "</string>
+    <string name="is_already_set_updating_time_to">" ist bereits eingestellt. Aktualisierungszeit bis "</string>
+    <string name="is_not_set_setting_for_the_first_time_time">" ist nicht eingestellt. Einstellung zum ersten Mal. Zeit: "</string>
+    <string name="time">Zeit</string>
+    <string name="notification_id">notification_id</string>
+    <string name="questionnaire_notifications">Questionnaire Notifications</string>
+    <string name="notification_channel">Notification Channel</string>
+    <string name="the_recorded_time_minute_is">"Die aufgezeichnete Zeit (Minute) beträgt "</string>
+    <string name="the_recorded_sport">Der aufgezeichnete Sport</string>
+    <string name="sport_type">Sportart:</string>
+    <string name="ok">OK</string>
+    <string name="duration_minute">",  Dauer(Minute): "</string>
+    <string name="mood_score">",  Stimmungspunktzahl: "</string>
+    <string name="sport_saved">Sport gespeichert</string>
+    <string name="data_saved">Daten gespeichert</string>
+    <string name="please_input_others">Bitte geben Sie andere ein</string>
+    <string name="insert_with_success">mit Erfolg einfügen</string>
+    <string name="you_have_finished">"Du bist mit "</string>
+    <string name="questionnaires">" Fragebogen fertig. "</string>
+    <string name="welcome_to_fit_mood">Willkommen zu Fit Mood!</string>
+    <string name="press_back_again_to_exit">Drücken Sie erneut die Zurück-Taste, um den Vorgang zu beenden</string>
+    <string name="location_saved_to_database">Standort in der Datenbank gespeichert</string>
+    <string name="we_need_your_location_to_provide_better_service">Wir benötigen Ihren Standort, um einen besseren Service bieten zu können</string>
+    <string name="we_need_your_permission_to_send_notifications">Zum Versenden von Benachrichtigungen benötigen wir Ihre Erlaubnis</string>
+    <string name="location_permission_granted">Standortgenehmigung erteilt</string>
+    <string name="location_permission_denied_please_enable_exact_position_for_the_app_in_the_settings">Standortberechtigung verweigert. Bitte aktivieren Sie die genaue Standortbestimmung für die App in den Einstellungen.</string>
+    <string name="notification_permission_granted">Benachrichtigungsberechtigung erteilt</string>
+    <string name="notification_permission_denied_please_allow_notifications_to_receive_a_reminder_for_the_questionnaire">Benachrichtigungsberechtigung verweigert. Bitte erlauben Sie Benachrichtigungen, eine Erinnerung für den Fragebogen zu erhalten.</string>
+
+    <!-- questionaire strings-->
+    <string-array name="ques11_stringsArr">
+        <item>Partner</item>
+        <item>Familie</item>
+        <item>Freunden</item>
+        <item>Kollegen</item>
+        <item>Fremden</item>
+        <item>Anderen</item>
+    </string-array>
+
+
+    <string-array name="ques12_stringsArr">
+        <item>Zu Hause</item>
+        <item>Schule / Univeristät</item>
+        <item>Arbeiten</item>
+        <item>Sport treiben</item>
+        <item>andere Freizeitaktivitäten</item>
+        <item>Shoppen</item>
+        <item>Besuchen</item>
+        <item>Anderes</item>
+    </string-array>
+
+    <!--  string-array for sport type choosing spinner -->
+    <string-array name="sportTypeArray">
+        <item>Wandern</item>
+        <item>Joggen</item>
+        <item>Schwimmen</item>
+        <item>Ballsport</item>
+        <item>Krafttraining</item>
+        <item>Yoga</item>
+        <item>Klettern/Bouldern</item>
+        <item>Anderes</item>
+    </string-array>
+
+    <string-array name="sensor_array">
+        <item>Sensor auswählen</item>
+        <item>SensorData</item>
+        <item>GpsData</item>
+    </string-array>
+
+    <string name="archive_header_name">Name</string>
+    <string name="archive_header_duration">Dauern</string>
+    <string name="archive_header_mood">Laune</string>
+
+
+    <string name="daeun_dialog_yourgoal">Dein Ziel</string>
+    <string name="daeun_dialog_mins">Min</string>
+    <string name="choose_your_sensor">Wähle deinen Sensor</string>
+
+    <string name="set_frequency">Frequenz_einstellen</string>
+    <string name="stop_frequency">Frequenz_stoppen</string>
+    <string name="step_counter">Schrittzähler</string>
+    <string name="step_count">Schrittanzahl</string>
+
+
+</resources>

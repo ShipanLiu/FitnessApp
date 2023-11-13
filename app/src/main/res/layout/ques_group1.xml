@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 25.07.23, 22:38
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- ques1  Question Category 1-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ques1_name"
+        android:textColor="@color/light_red"
+        android:textSize="@dimen/small_font_size"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques1_left"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="start"/>
+
+        <SeekBar
+            android:id="@+id/ques1_seekbar"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:splitTrack="false"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques1_right"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <!-- ques2-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ques2_name"
+        android:textColor="@color/light_red"
+        android:textSize="@dimen/small_font_size"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques2_left"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="start"/>
+
+        <SeekBar
+            android:id="@+id/ques2_seekbar"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:splitTrack="false"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques2_right"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <!-- ques3-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ques3_name"
+        android:textColor="@color/light_red"
+        android:textSize="@dimen/small_font_size"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques3_left"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="start"/>
+
+        <SeekBar
+            android:id="@+id/ques3_seekbar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:splitTrack="false" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques3_right"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <!-- ques4-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ques4_name"
+        android:textColor="@color/light_red"
+        android:textSize="@dimen/small_font_size"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques4_left"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="start"/>
+
+        <SeekBar
+            android:id="@+id/ques4_seekbar"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:splitTrack="false"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques4_right"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <!-- ques5-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ques5_name"
+        android:textColor="@color/light_red"
+        android:textSize="@dimen/small_font_size"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques5_left"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="start"/>
+
+        <SeekBar
+            android:id="@+id/ques5_seekbar"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:splitTrack="false"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques5_right"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+    <!-- ques6-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ques6_name"
+        android:textColor="@color/light_red"
+        android:textSize="@dimen/small_font_size"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques6_left"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="start"/>
+
+        <SeekBar
+            android:id="@+id/ques6_seekbar"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0"
+            android:splitTrack="false"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/ques6_right"
+            android:textSize="@dimen/common_font_size"
+            android:layout_gravity="end"/>
+    </LinearLayout>
+
+</LinearLayout>

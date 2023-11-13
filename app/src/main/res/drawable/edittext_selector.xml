@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 13.06.23, 16:16
+  ~  */
+  -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- if selected:  there will be a blue box around the edittext box-->
+    <item android:drawable="@drawable/shape_box_onfocus" android:state_focused="true"/>
+    <item android:drawable="@drawable/shape_box_withoutfocus" android:state_focused="false"/>
+</selector>

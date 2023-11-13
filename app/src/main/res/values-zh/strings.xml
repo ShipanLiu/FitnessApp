@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 25.07.23, 15:09
+  ~  */
+  -->
+
+<resources>
+    <!--heath coin-->
+    <string name="health_coin">您的健康币数量:</string>
+    <string name="health_coin_amount"> </string>
+    <string name="goal_setting">设置您的目标</string>
+    <string name="goal_setting_min">分钟</string>
+    <string name="goal_setting_btn">设置</string>
+    <string name="sport_total_time">您的总运动时间</string>
+
+    <string name="wandering">徒步</string>
+    <string name="jogging">跑步</string>
+    <string name="swimming">游泳</string>
+    <string name="ball_sports">球类运动</string>
+    <string name="weight_training">力量训练</string>
+    <string name="yoga">瑜伽</string>
+    <string name="climbing_bouldering">攀岩</string>
+    <string name="ohters">其他</string>
+
+    <string name="wandering_total_time">0 分钟</string>
+    <string name="jogging_total_time">0 分钟</string>
+    <string name="swimming_total_time">0 分钟</string>
+    <string name="ball_sports_total_time">0 分钟</string>
+    <string name="weight_training_total_time">0 分钟</string>
+    <string name="yoga_total_time">0 分钟</string>
+    <string name="climbing_bouldering_total_time">0 分钟</string>
+    <string name="others_total_time">0 分钟</string>
+
+
+    <!-- sports array-->
+    <!--  string-array for sport type choosing spinner -->
+    <string-array name="sportTypeArray">
+        <item>徒步</item>
+        <item>跑步</item>
+        <item>游泳</item>
+        <item>球类运动</item>
+        <item>力量训练</item>
+        <item>瑜伽</item>
+        <item>攀崖</item>
+        <item>其他</item>
+    </string-array>
+
+
+
+
+    <string name="app_name">Fit Mood</string>
+    <string name="greeting">你好用户！你今天感觉怎么样？准备好做点运动了吗？</string>
+    <string name="home">主页</string>
+    <string name="questionnaire">问卷</string>
+    <string name="tracking">记录运动</string>
+    <string name="settings">设置</string>
+    <string name="archive">运动档案</string>
+    <string name="darkmodeSwitch">黑暗模式</string>
+    <string name="gpsSwitch">GPS导航</string>
+    <string name="fit_mood">Fit Mood</string>
+    <string name="no_item_selected">没有进行选择</string>
+    <string name="this_would_set_the_language_to">这将会把语言设置为：</string>
+    <string name="select_the_time_for_notifications">选择发送通知的时间：</string>
+    <string name="confirm">确认</string>
+    <string name="the_selected_time">已选择的时间：</string>
+    <string name="return_settings">返回设置页</string>
+    <string name="set_notification_time">设置通知发送时间</string>
+    <string name="choose_your_sport_activity">选择你要记录的运动种类</string>
+    <string name="stop">停止</string>
+    <string name="start">开始</string>
+    <string name="add_the_finish_activity">添加一个未被记录的运动</string>
+    <string name="add">添加</string>
+    <string name="track_the_sport_duration">记录运动时长</string>
+    <string name="the_date_of_today">今日日期：</string>
+    <string name="finish">完成</string>
+    <string name="return_to_main_page">返回主页</string>
+    <string name="user_consent_and_data_privacy_policy_agreement">用户同意和数据隐私政策协议</string>
+    <string name="i_have_read_and_agree_to_fit_mood_s_user_consent_and_data_privacy_policy">我已阅读并同意 Fit Mood 的用户同意书和数据隐私政策。</string>
+    <string name="accept_privacy_policy_continue">继续</string>
+    <string name="privacy_policy">" <![CDATA[ <br/><h3>数据隐私政策:</h3><p> <b>1. 数据收集:</b> 我们收集情绪问卷答复、体力活动数据（手动输入以及通过计步器输入），并在未来收集步行距离的 GPS 数据。 <br/> <b>2. 匿名:</b> 收集的所有数据均采用假名，以确保您的隐私和机密。<br/> <b>3. 数据用途:</b> 收集的数据仅用于研究目的。 它可以帮助我们了解情绪模式以及身体活动如何影响它们。 <br/> <b>4. 数据储存:</b> 您的数据将受到最先进的安全措施的安全存储和保护。 <br/> <b>5. 数据共享:</b> 未经您明确同意，我们不会出售、出租或与第三方共享您的个人数据。 </p> <br/> <h3>用户同意协议:</h3> <p> 如使用 FitMood，即表示您同意： <br/> <b>1.</b> 您同意按照我们的数据隐私政策所述收集和使用您的数据。 <br/> <b>2.</b> 您了解您提供的数据将被化名并用于研究目的。 <br/> <b>3.</b> 您将每天完成三次情绪问卷，输入您的身体活动数据，并在出现提示时参与我们的情绪提升干预措施。 <br/> <b>4.</b> 您了解，我们偶尔会向您播放体育活动视频，作为改善您情绪的干预措施。 <br/> <b>5.</b> 如果您希望撤回您的同意并删除您的数据，您将与我们联系。 </p> ]]>     "</string>
+
+
+    <string name="ques_dialog_title">对此随机练习发表评论</string>
+    <string name="ques_dialog_yes">完成</string>
+    <string name="ques_dialog_default_comment">没啥可说的</string>
+    <string name="ques_update_and_save_btn">保存并返回主页</string>
+
+    <string name="after_sport_seekbar">你给现在的心情打几分</string>
+    <string name="btn_after_sport_dialog_positive">发送</string>
+    <string name="btn_after_sport_dialog_negative">取消</string>
+    <string name="sport_archive_title">运动记录</string>
+    <string name="sport_dialog_yes">是</string>
+    <string name="sport_dialog_no">否</string>
+    <string name="sport_dialog_delete">删除</string>
+
+
+
+
+    <string name="ques1_name">问题1</string>
+    <string name="ques1_left">不满意</string>
+    <string name="ques1_right">满意</string>
+    <string name="ques2_name">问题2</string>
+    <string name="ques2_left">不安</string>
+    <string name="ques2_right">平静</string>
+    <string name="ques3_name">问题3</string>
+    <string name="ques3_left">不好</string>
+    <string name="ques3_right">良好</string>
+    <string name="ques4_name">问题4</string>
+    <string name="ques4_left">激烈的</string>
+    <string name="ques4_right">放松的</string>
+    <string name="ques5_name">问题5</string>
+    <string name="ques5_left">0点能量</string>
+    <string name="ques5_right">100点能量</string>
+    <string name="ques6_name">问题6</string>
+    <string name="ques6_left">疲倦</string>
+    <string name="ques6_right">清醒</string>
+    <string name="ques7_name">问题7</string>
+    <string name="ques7_desc">自上次问卷调查以来，您是否有过一次或多次负面经历？</string>
+    <string name="ques7_left">没有发生</string>
+    <string name="ques7_right">非常强烈</string>
+    <string name="ques8_name">问题8</string>
+    <string name="ques8_desc">自上次问卷调查以来，您是否有过一次或多次负面经历？</string>
+
+
+    <string name="ques9_name">问题9</string>
+    <string name="ques9_title">你现在是一个人吗？</string>
+    <string name="ques9_alone">一个人</string>
+    <string name="ques9_not_alone">不是一个人</string>
+    <string name="ques10_name">问题10</string>
+    <string name="ques10_desc">当您想到您周围的人时，以下陈述是否适用？ 我不喜欢这些人！</string>
+    <string name="ques10_left">非常强烈</string>
+    <string name="ques10_right">非常强烈</string>
+    <string name="ques11_name">问题11</string>
+    <string name="ques11_desc">谁在你的身边？</string>
+    <string name="ques11_others_question">你选择了“其他人”：他门是谁？</string>
+    <string name="ques11_others_editText_hint">你身边有什么人？</string>
+    <string name="ques11_others_confirm">确认</string>
+    <string name="ques12_name">问题12</string>
+    <string name="ques12_desc">你现在在哪？</string>
+    <string name="ques13_name">问题13</string>
+    <string name="ques13_desc">我的注意力经常集中在我不想考虑的自己的特征上</string>
+    <string name="save_gps">保存gps数据</string>
+    <string name="exercise_video_question1">你喜欢这个练习吗？</string>
+    <string name="exercise_video_question2">还想写点别的什么？</string>
+    <string name="return_to_setting">返回设置页</string>
+    <string name="gps_data">GPS数据</string>
+    <string name="group6_left">不同意</string>
+    <string name="group6_right">完全同意</string>
+    <string name="ques14_name">问题14</string>
+    <string name="ques14_desc">我经常有这样的感觉：我过去说过或做过的事情又浮现在我的脑海里。</string>
+    <string name="ques15_name">问题15</string>
+    <string name="ques15_desc">有时我很难停止琢磨自己</string>
+    <string name="ques16_name">问题16</string>
+    <string name="ques16_desc">在我吵架或解决分歧后的很长一段时间里，我对这些事件的想法又浮现出来</string>
+    <string name="ques17_name">问题17</string>
+    <string name="ques17_desc">目前我对自己很满意</string>
+    <string name="group7_left">不适用</string>
+    <string name="group7_right">完全适用</string>
+    <string name="ques18_name">问题18</string>
+    <string name="ques18_desc">目前我认为自己是一个失败者</string>
+    <string name="ques19_name">问题19</string>
+    <string name="ques19_desc">自上次调查以来，我的反应很冲动——这意味着我的行为没有考虑潜在的后果</string>
+    <string name="ques20_name">问题20</string>
+    <string name="ques20_desc">自上次问卷调查以来，我一直对他人生气或具有攻击性，后来我对此感到后悔</string>
+    <string name="ques21_question">你还有什么要说的吗？ 在此调查问卷中添加一些注释。</string>
+    <string name="ques21_editText_hint">在此输入你的评论</string>
+    <string name="after_ques_finish_btn">保存并继续</string>
+    <string name="after_ques_dialog_title">问卷被保存到数据库</string>
+    <string name="after_ques_dialog_content">现在返回主页面</string>
+
+    <!-- questionaire strings-->
+    <string-array name="ques11_stringsArr">
+        <item>伴侣</item>
+        <item>家人</item>
+        <item>朋友</item>
+        <item>同事</item>
+        <item>陌生人</item>
+        <item>其他</item>
+    </string-array>
+
+
+    <string-array name="ques12_stringsArr">
+        <item>家</item>
+        <item>学校</item>
+        <item>工作</item>
+        <item>运动</item>
+        <item>其他娱乐活动</item>
+        <item>购物</item>
+        <item>拜访他人</item>
+        <item>其他</item>
+    </string-array>
+
+
+    <string name="after_ques_dialog_gotoexercise_title">你看起来不太好</string>
+    <string name="after_ques_dialog_gotoexercise_content">一个练习被随机分配</string>
+    <string name="after_ques_dialog_ok">好</string>
+    <string name="save_sensor">保存传感器</string>
+    <string name="back_to_setting">返回设置页</string>
+    <string name="sensor_data">传感器数据</string>
+    <string name="please_choose_a_time_between_7_00_and_11_00_for_the_first_notification">请选择7:00至11:00之间的第一次通知时间！</string>
+    <string name="please_choose_a_time_between_12_00_and_14_00_for_the_second_notification">请选择12:00至14:00之间的第二次通知时间！</string>
+    <string name="please_choose_a_time_between_17_00_and_19_00_for_the_third_notification">第三次通知请选择17:00至19:00之间的时间！</string>
+    <string name="alarm">警报</string>
+    <string name="alarm_with_id">警报id</string>
+    <string name="is_already_set_updating_time_to">已设置。 更新时间为</string>
+    <string name="is_not_set_setting_for_the_first_time_time">未设置。 第一次设定。 时间：</string>
+    <string name="time">事件</string>
+    <string name="notification_id">通知id</string>
+    <string name="questionnaire_notifications">问卷调查通知</string>
+    <string name="notification_channel">通知频道</string>
+    <string name="the_recorded_time_minute_is">记录的时间（分钟）为</string>
+    <string name="the_recorded_sport">记录的运动</string>
+    <string name="sport_type">运动类型</string>
+    <string name="ok">确认</string>
+    <string name="duration_minute">",  时长（分钟）: "</string>
+    <string name="mood_score">",  心情指数: "</string>
+    <string name="sport_saved">运动已保存</string>
+    <string name="data_saved">数据已保存</string>
+    <string name="please_input_others">请输入其他内容</string>
+    <string name="insert_with_success">成功插入</string>
+    <string name="you_have_finished">你已经完成</string>
+    <string name="questionnaires">" 问卷"</string>
+    <string name="welcome_to_fit_mood">欢迎来到 Fit Mood!</string>
+    <string name="press_back_again_to_exit">再按一次以返回</string>
+    <string name="location_saved_to_database">地点已保存到数据库</string>
+    <string name="we_need_your_location_to_provide_better_service">我们需要你的地点来提供服务</string>
+    <string name="we_need_your_permission_to_send_notifications">我们需要你的许可来发送通知</string>
+    <string name="location_permission_granted">已授予位置许可</string>
+    <string name="location_permission_denied_please_enable_exact_position_for_the_app_in_the_settings">位置权限被拒绝。 请在设置中启用应用程序的精确位置。</string>
+    <string name="notification_permission_granted">已授予通知许可</string>
+
+    <string-array name="sensor_array">
+        <item>选择传感器</item>
+        <item>传感器数据</item>
+        <item>GPS 数据</item>
+    </string-array>
+
+    <string name="notification_permission_denied_please_allow_notifications_to_receive_a_reminder_for_the_questionnaire">通知权限被拒绝。 请允许通知接收调查问卷提醒。</string>
+    <string name="archive_header_name">名字</string>
+    <string name="archive_header_duration">时长</string>
+    <string name="archive_header_mood">心情</string>
+
+    <string name="daeun_dialog_yourgoal">你的目标</string>
+    <string name="daeun_dialog_mins">分钟</string>
+    <string name="choose_your_sensor">选择您的传感器</string>
+
+    <string name="set_frequency">设置频率</string>
+    <string name="stop_frequency">停止频率</string>
+    <string name="step_counter">步数计数器</string>
+    <string name="step_count">步数</string>
+
+
+
+</resources>

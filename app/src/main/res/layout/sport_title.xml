@@ -1,0 +1,57 @@
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 25.07.23, 22:38
+  ~  */
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#aaaaff" >
+
+
+    <!--android:layout_alignParentRight , 当前view 和 parent viw 右对齐-->
+    <ImageView
+        android:id="@+id/iv_sport_archive_back"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_back" />
+
+
+    <!--layout_centerInParent:  在 parent 里面-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="@string/sport_archive_title"/>
+
+    <ImageView
+        android:id="@+id/iv_sport_icon"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sport_icon2" />
+
+    <!--the sport number on top right-->
+    <TextView
+        android:id="@+id/tv_sport_count"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_sport_icon"
+        android:layout_marginLeft="-20dp"
+        android:gravity="center"
+        android:background="@drawable/shape_oval_red"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</RelativeLayout>

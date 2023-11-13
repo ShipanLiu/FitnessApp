@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 14.05.23, 14:03
+  ~  */
+  -->
+
+<resources>
+    <dimen name="common_font_size">14sp</dimen>
+    <dimen name="small_font_size">12sp</dimen>
+
+    <dimen name="button_font_size">20sp</dimen>
+    <dimen name="item_layout_height">50dp</dimen>
+</resources>

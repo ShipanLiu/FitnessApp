@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 11.07.23, 08:13
+  ~  */
+  -->
+
+<resources>
+
+    <!-- strings used in Tracking page and in Tracking.java-->
+
+
+
+    <!--showDialogSeekBar() in Tracking.java-->
+    <string name="after_sport_seekbar">What is your mood score now</string>
+    <string name="btn_after_sport_dialog_positive">Send</string>
+    <string name="btn_after_sport_dialog_negative">Cancel</string>
+    <string name="sport_archive_title">Sport archive</string>
+
+    <string name="sport_dialog_yes">Yes</string>
+    <string name="sport_dialog_no">No</string>
+    <string name="sport_dialog_delete">Delete</string>
+
+
+    <!--  string-array for sport type choosing spinner -->
+    <string-array name="sportTypeArray">
+        <item>Wandering</item>
+        <item>Jogging</item>
+        <item>Swimming</item>
+        <item>Ball sports</item>
+        <item>Weight training</item>
+        <item>Yoga</item>
+        <item>Climbing/Bouldering</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>

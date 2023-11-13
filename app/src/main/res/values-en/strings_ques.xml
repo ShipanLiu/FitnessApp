@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 11.07.23, 08:13
+  ~  */
+  -->
+
+<resources>
+
+    <string name="ques_dialog_title">leave a comment to this ramdom exercise</string>
+    <string name="ques_dialog_yes">done</string>
+    <string name="ques_dialog_default_comment">I have nothing to say</string>
+    <string name="ques_update_and_save_btn">save and go to main</string>
+
+
+
+
+    <!-- questionaire strings-->
+
+
+    <string-array name="ques11_stringsArr">
+        <item>Partner</item>
+        <item>Family</item>
+        <item>Friends</item>
+        <item>Coworkers</item>
+        <item>Strangers</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <string-array name="ques12_stringsArr">
+        <item>At home</item>
+        <item>School/University</item>
+        <item>Work</item>
+        <item>Sport</item>
+        <item>other recreational Activity</item>
+        <item>Shopping</item>
+        <item>Visiting</item>
+        <item>Others</item>
+    </string-array>
+
+
+
+
+
+
+    <!-- Group 1  -->
+
+    <!--question 1-->
+    <string name="ques1_name">question1</string>
+    <string name="ques1_left">unsatisfied</string>
+    <string name="ques1_right">satisfied</string>
+
+    <!--question 1-->
+    <string name="ques2_name">question2</string>
+    <string name="ques2_left">restless</string>
+    <string name="ques2_right">calm</string>
+
+    <!--question 1-->
+    <string name="ques3_name">question3</string>
+    <string name="ques3_left">unwell</string>
+    <string name="ques3_right">well</string>
+
+    <!--question 1-->
+    <string name="ques4_name">question4</string>
+    <string name="ques4_left">tense</string>
+    <string name="ques4_right">relaxed</string>
+
+    <!--question 1-->
+    <string name="ques5_name">question5</string>
+    <string name="ques5_left">0 energy</string>
+    <string name="ques5_right">100 energy</string>
+
+    <!--question 1-->
+    <string name="ques6_name">question6</string>
+    <string name="ques6_left">tired</string>
+    <string name="ques6_right">awake</string>
+
+
+
+    <!-- Group 2  -->
+
+    <!--question 7-->
+    <string name="ques7_name">question7</string>
+    <string name="ques7_desc">Since the last questionnaire, did you have one or more negative experiences?</string>
+    <string name="ques7_left">no event</string>
+    <string name="ques7_right">very intense</string>
+
+    <!--question 8-->
+    <string name="ques8_name">question8</string>
+    <string name="ques8_desc">Since the last questionnaire, did you have one or more positive experiences?</string>
+
+
+
+    <!-- Group 3-->
+
+    <string name="ques9_name">question9</string>
+    <string name="ques9_title">are you alone now?</string>
+    <string name="ques9_alone">alone</string>
+    <string name="ques9_not_alone">not alone</string>
+
+
+    <string name="ques10_name">question10</string>
+    <string name="ques10_desc">When you think of the people you are surround, how does the following statement apply? I do not like these people!</string>
+    <string name="ques10_left">very intense</string>
+    <string name="ques10_right">very intense</string>
+
+
+
+    <!--Group 4-->
+    <string name="ques11_name">question11</string>
+    <string name="ques11_desc">Who is around you right now?</string>
+
+    <string name="ques11_others_question">you have chosen others: please define who</string>
+    <string name="ques11_others_editText_hint">who are others?</string>
+    <string name="ques11_others_confirm">confirm</string>
+
+
+
+    <!-- Group 5   -->
+    <string name="ques12_name">question12</string>
+    <string name="ques12_desc">Where are you right now?</string>
+
+
+
+    <!-- Group6  -->
+
+    <string name="ques13_name">question13</string>
+    <string name="ques13_desc">My attention is often focused on characteristics of myself that I don’t want to think about</string>
+    <string name="group6_left">not agree</string>
+    <string name="group6_right">fully agree</string>
+
+
+    <string name="ques14_name">question14</string>
+    <string name="ques14_desc">I often have the feeling that things resurface in my head that I have said or done in the past.</string>
+
+    <string name="ques15_name">question15</string>
+    <string name="ques15_desc">Sometimes I have a hard time to stop thinking about myself</string>
+
+
+
+    <string name="ques16_name">question16</string>
+    <string name="ques16_desc">For a long time after I got into a fight or a disagreement is settled, my thoughts about these events resurface</string>
+
+
+    <!-- Group7  -->
+
+    <string name="ques17_name">question17</string>
+    <string name="ques17_desc">Currently I\'m satisfied with myself</string>
+    <string name="group7_left">not apply</string>
+    <string name="group7_right">fully apply</string>
+
+
+    <string name="ques18_name">question18</string>
+    <string name="ques18_desc">Currently I think about myself that I am a failure</string>
+
+
+
+    <!-- Group8  -->
+
+    <string name="ques19_name">question19</string>
+    <string name="ques19_desc">Since the last questionnaire, I reacted impulsive–meaning I acted without thinking about potential consequences</string>
+
+
+    <string name="ques20_name">question20</string>
+    <string name="ques20_desc">Since the last questionnaire, I have been angry or aggressive to another person, which I regretted later on</string>
+
+
+    <!--strings in questionaire_confirm-->
+
+    <string name="ques21_question">Do you have anything else to say? Add some notes to this questionnaire.</string>
+    <string name="ques21_editText_hint">input your notes here</string>
+
+
+    <string name="after_ques_finish_btn">Save And Proceed</string>
+    <string name="after_ques_dialog_title">the questionaire is saved into database</string>
+    <string name="after_ques_dialog_content">now go back to main page</string>
+
+    <string name="after_ques_dialog_gotoexercise_title">you seem fell unwell</string>
+    <string name="after_ques_dialog_gotoexercise_content">a random exercise is assigned to you</string>
+
+    <string name="after_ques_dialog_ok">ok</string>
+
+
+
+
+
+
+
+</resources>

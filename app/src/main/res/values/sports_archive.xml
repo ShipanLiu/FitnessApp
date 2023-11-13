@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 11.07.23, 08:25
+  ~  */
+  -->
+
+<resources>
+    <string name="archive_header_name">name</string>
+    <string name="archive_header_duration">duration</string>
+    <string name="archive_header_mood">mood</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 25.07.23, 22:38
+  ~  */
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <SeekBar
+        android:id="@+id/myMoodScoreSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_layout_height"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="40"
+        android:splitTrack="false"
+        android:layout_gravity="center"/>
+</LinearLayout>

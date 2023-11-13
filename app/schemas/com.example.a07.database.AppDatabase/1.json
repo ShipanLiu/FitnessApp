@@ -1,0 +1,190 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "534dfd2b36d62c898bdedd83b2929303",
+    "entities": [
+      {
+        "tableName": "QuestionaireEntity",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `timeAndDateStamp` TEXT, `ques1` REAL NOT NULL, `ques2` REAL NOT NULL, `ques3` REAL NOT NULL, `ques4` REAL NOT NULL, `ques5` REAL NOT NULL, `ques6` REAL NOT NULL, `ques7` REAL NOT NULL, `ques8` REAL NOT NULL, `ques9` TEXT, `ques10` REAL NOT NULL, `ques11` TEXT, `ques12` TEXT, `ques13` REAL NOT NULL, `ques14` REAL NOT NULL, `ques15` REAL NOT NULL, `ques16` REAL NOT NULL, `ques17` REAL NOT NULL, `ques18` REAL NOT NULL, `ques19` REAL NOT NULL, `ques20` REAL NOT NULL, `ques21` TEXT, `ex_trigger` INTEGER, `ex_materialNr` INTEGER, `ex_rating` INTEGER, `ex_comment` TEXT)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timeAndDateStamp",
+            "columnName": "timeAndDateStamp",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ques1",
+            "columnName": "ques1",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques2",
+            "columnName": "ques2",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques3",
+            "columnName": "ques3",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques4",
+            "columnName": "ques4",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques5",
+            "columnName": "ques5",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques6",
+            "columnName": "ques6",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques7",
+            "columnName": "ques7",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques8",
+            "columnName": "ques8",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques9",
+            "columnName": "ques9",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ques10",
+            "columnName": "ques10",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques11",
+            "columnName": "ques11",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ques12",
+            "columnName": "ques12",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ques13",
+            "columnName": "ques13",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques14",
+            "columnName": "ques14",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques15",
+            "columnName": "ques15",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques16",
+            "columnName": "ques16",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques17",
+            "columnName": "ques17",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques18",
+            "columnName": "ques18",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques19",
+            "columnName": "ques19",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques20",
+            "columnName": "ques20",
+            "affinity": "REAL",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ques21",
+            "columnName": "ques21",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ex_trigger",
+            "columnName": "ex_trigger",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ex_materialNr",
+            "columnName": "ex_materialNr",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ex_rating",
+            "columnName": "ex_rating",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "ex_comment",
+            "columnName": "ex_comment",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '534dfd2b36d62c898bdedd83b2929303')"
+    ]
+  }
+}

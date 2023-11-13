@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~  * Created by Shipan Liu, Ludovico Ferrara, Minhua Liu, Rodolphe Loic Souassi Tatang and Daeun Jung
+  ~  * Copyright (c) 2023 . All rights reserved.
+  ~  *  Last modified 25.07.23, 15:08
+  ~  */
+  -->
+
+<resources>
+
+    <string name="set_frequency">Set_Frequency</string>
+    <string name="stop_frequency">Stop_Frequency</string>
+    <string name="sensor_data">Sensor_Data</string>
+    <string name="step_counter">Step_Couter</string>
+    <string name="step_count">Step_Count</string>
+
+</resources>
